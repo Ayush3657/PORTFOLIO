@@ -80,7 +80,7 @@ label #sidebar_btn:hover{
     display: none;
 }
 
-#check:checked: ~ .sidebar a{
+#check:checked ~ .sidebar a{
     font-size: 20px;
     margin-left: 170px;
     width: 80px;
