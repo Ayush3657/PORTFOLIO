@@ -5,7 +5,7 @@ body{
 }
 header{
     position: fixed;
-    background: #22242A;
+    background: #1a1a1a;
     padding: 20px;
     width: 100%;
     height: 30px;
@@ -18,7 +18,7 @@ header{
     font-weight: 900;
 }
 .sidebar{
-    background: #2F323A;
+    background: #1a1a1a;
     margin-top: 70px;
     padding-top: 30px;
     position: fixed;
@@ -54,7 +54,7 @@ header{
     background: #616161;
 }
 .sidebar i{
-    padding-right: 10px;
+    padding-right: 15px;
 }
 
 label #sidebar_btn{
@@ -69,7 +69,7 @@ label #sidebar_btn{
     transition-property: color;
 }
 label #sidebar_btn:hover{
-    color: #19B3D3;
+    color: #d37c19;
 }
 
 #check:checked ~ .sidebar{
@@ -77,13 +77,13 @@ label #sidebar_btn:hover{
 }
 
 #check:checked ~ .sidebar a span{
-    display:  none;
+    display: none;
 }
 
 #check:checked: ~ .sidebar a{
     font-size: 20px;
     margin-left: 170px;
-    width 80px;
+    width: 80px;
 }
 
 .content{
