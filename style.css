@@ -135,76 +135,14 @@ header{
 }
 
 
-.text{
-    font-size: 3rem;
-    color: rgb(255, 255, 255);
-    margin: 8rem;
-    margin-left: 10rem;
-    margin-top: 15rem;
-}
-.text span{
-    margin-left: 3rem;
-    color: rgb(0, 183, 255);
-}
-.para1{
-    font-size: 2rem;
-    width: auto;
-    margin: 5rem;
-    margin-left: 8rem;
-    max-width: 700px;
-    margin-top: 0.5rem;
-    text-align: justify;
-    padding-right: 1rem;
-    padding-left: 1rem;
-    padding-top: 0.1rem;
-    padding-bottom: 0.1rem;
-    background: rgb(133, 133, 133);
-    border-radius: 4%;
-    opacity: 1;
-}
 
-.logo2{
-    width: 400px;
-    height: 400px;
-    margin-left: 60%;
-    border-radius: 50%;
-    margin-right: 15rem;
-    margin-top: -35rem;
-}
 
-.text2 h5{
-    font-size: 2.5rem;
-    color: rgb(255, 255, 255);
-    margin: 8rem;
-    margin-left: 8rem;
-    margin-top: 15rem;
-}
 
-.para2{
 
-    font-size: 2rem;
-    width: auto;
-    margin: 5rem;
-    margin-left: 8rem;
-    max-width: 700px;
-    margin-top: -5rem;
-    text-align: justify;
-    padding-right: 1rem;
-    padding-left: 1rem;
-    padding-top: 0.1rem;
-    padding-bottom: 0.1rem;
-    background: rgb(133, 133, 133);
-    border-radius: 4%;
-    opacity: 1;
-}
 
-.text3 h6{
-    font-size: 2.5rem;
-    color: rgb(255, 255, 255);
-    margin: 8rem;
-    margin-left: 8rem;
-    margin-top: 15rem;
-}
+
+
+
 
 
 
@@ -284,12 +222,22 @@ header{
     background: #ffffff;
 }
 
-.text4 h1{
-    font-size: 2.5rem;
-    color: rgb(255, 255, 255);
-    margin: 8rem;
-    margin-left: 8rem;
-    margin-top: 15rem;
+
+
+
+.social a{
+    color: rgb(121, 121, 121);
+}
+.social:hover {
+    transform: scale(1);
+    color: white;
+}
+.social:hover  a {
+    color: white;
+}
+.social img{
+    height: 100px;
+    margin: 2rem;
 }
 
 @media only screen and (max-width: 600px){
@@ -310,18 +258,95 @@ header{
     main{
         margin: 0;
     }
-    .content{
-        margin-left: 0;
+
+    .text{
+        font-size: 2rem;
+        color: rgb(255, 255, 255);
+        margin: 8rem;
+        margin-left: 3rem;
+        margin-top: 5rem;
     }
-    .content .para1{
-        padding-left: 1rem;
-        padding-right: 1rem;
-        font-size: ;
+    .text span{
+        margin-left: 3rem;
+        color: rgb(0, 183, 255);
     }
-    .content .para2{
-        padding-left: 1rem;
+
+
+
+    .logo2{
+        width: 200px;
+        height: 200px;
+        margin-left: 35%;
+        border-radius: 50%;
+        margin-right: 18em;
+        margin-top: -6rem;
+        margin-bottom: 2rem;
+    }
+
+    .social{
+        max-width: 80rem;
+        padding: 1rem;
+        margin: auto;
+        text-align: center;
+        font-size: 5rem;
+        color: rgb(56, 56, 56);
+        margin-bottom: 5rem;
+        word-spacing: 1rem;
+    }
+
+    .para1{
+        font-size: 1.8rem;
+        width: auto;
+        margin: 5rem;
+        margin-left: 4rem;
+        max-width: 700px;
+        margin-top: 0.5rem;
+        text-align: justify;
         padding-right: 1rem;
-        font-size: ;
+        padding-left: 1rem;
+        padding-top: 0.1rem;
+        padding-bottom: 0.1rem;
+        background: rgb(133, 133, 133);
+        border-radius: 4%;
+        opacity: 1;
+    }
+    .para2{
+
+        font-size: 1.8rem;
+        width: auto;
+        margin: 5rem;
+        margin-left: 4rem;
+        max-width: 700px;
+        margin-top: -5rem;
+        text-align: justify;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        padding-top: 0.1rem;
+        padding-bottom: 0.1rem;
+        background: rgb(133, 133, 133);
+        border-radius: 4%;
+        opacity: 1;
+    }
+    .text2 h5{
+        font-size: 2.2rem;
+        color: rgb(255, 255, 255);
+        margin: 6rem;
+        margin-left: 5rem;
+        margin-top: 15rem;
+    }
+    .text3 h6{
+        font-size: 2.2rem;
+        color: rgb(255, 255, 255);
+        margin: 7rem;
+        margin-left: 5rem;
+        margin-top: 15rem;
+    }
+    .text4 h1{
+        font-size: 2.5rem;
+        color: rgb(255, 255, 255);
+        margin: 2rem;
+        margin-left: 4.5rem;
+        margin-top: 15rem;
     }
 
 }
@@ -348,15 +373,94 @@ header{
     .navbar:hover h4{
         display: block;
     }
-    .content .para1{
-        padding-left: 1rem;
-        padding-right: 1rem;
-        font-size: 2.2vw;
+
+    .text{
+        font-size: 3rem;
+        color: rgb(255, 255, 255);
+        margin: 8rem;
+        margin-left: 10rem;
+        margin-top: 15rem;
     }
-    .content .para2{
-        padding-left: 1rem;
+    .text span{
+        margin-left: 3rem;
+        color: rgb(0, 183, 255);
+    }
+
+
+
+    .logo2{
+        width: 400px;
+        height: 400px;
+        margin-left: 60%;
+        border-radius: 50%;
+        margin-right: 15rem;
+        margin-top: -35rem;
+    }
+
+    .social{
+        max-width: 80rem;
+        padding: 1rem;
+        margin: auto;
+        text-align: center;
+        font-size: 5rem;
+        color: rgb(56, 56, 56);
+        margin-bottom: 5rem;
+        word-spacing: 2rem;
+    }
+
+    .para1{
+        font-size: 2rem;
+        width: auto;
+        margin: 5rem;
+        margin-left: 8rem;
+        max-width: 700px;
+        margin-top: 0.5rem;
+        text-align: justify;
         padding-right: 1rem;
-        font-size: 2.2vw;
+        padding-left: 1rem;
+        padding-top: 0.1rem;
+        padding-bottom: 0.1rem;
+        background: rgb(133, 133, 133);
+        border-radius: 4%;
+        opacity: 1;
+    }
+    .para2{
+
+        font-size: 2rem;
+        width: auto;
+        margin: 5rem;
+        margin-left: 8rem;
+        max-width: 700px;
+        margin-top: -5rem;
+        text-align: justify;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        padding-top: 0.1rem;
+        padding-bottom: 0.1rem;
+        background: rgb(133, 133, 133);
+        border-radius: 4%;
+        opacity: 1;
+    }
+    .text2 h5{
+        font-size: 2.5rem;
+        color: rgb(255, 255, 255);
+        margin: 8rem;
+        margin-left: 8rem;
+        margin-top: 15rem;
+    }
+    .text3 h6{
+        font-size: 2.5rem;
+        color: rgb(255, 255, 255);
+        margin: 8rem;
+        margin-left: 8rem;
+        margin-top: 15rem;
+    }
+    .text4 h1{
+        font-size: 2.5rem;
+        color: rgb(255, 255, 255);
+        margin: 8rem;
+        margin-left: 8rem;
+        margin-top: 15rem;
     }
     
 }
