@@ -15,7 +15,7 @@ body{
     padding: 0;
 }
 
-
+/*
 body::-webkit-scrollbar{
     width: 0.25rem;
 }
@@ -24,7 +24,7 @@ body::-webkit-scrollbar-track{
 }
 body::-webkit-scrollbar-thumb{
     background: #313131;
-}
+}*/
 
 
 main{
@@ -116,9 +116,6 @@ header{
     margin: 0 1.5rem;
 }
 
-
-
-
 .navbar .profile_image{
     display: none;
     width: 100px;
@@ -135,11 +132,39 @@ header{
 
 .content{
     margin-left: 5rem;
+    color: #ececec;
     background: url(bg.png) no-repeat;
+    background-attachment: fixed;
     background-position: center;
     background-size:  cover;
-    height: 100vh;
+    height: 400vh;
 }
+
+.content .text{
+    color: #ececec;
+    font-size: 1.5rem;
+    padding-top: 14rem;
+}
+.content .text h2{
+    padding-left: 5rem;
+
+}
+.content .text h2 span{
+    padding: 3rem;
+    color: rgb(0, 255, 234);
+}
+.content .text2{
+    font-size: 1.5rem;
+}
+.content .text2 h5{
+    padding-top: 40%;
+    padding-left: 5rem;
+    font-size: 2rem;
+}
+.content .text2 h5 span{  
+    color: rgb(12, 203, 236);
+}
+
 
 @media only screen and (max-width: 600px){
     .navbar {
@@ -161,6 +186,16 @@ header{
     }
     .content{
         margin-left: 0;
+    }
+    .content .para1{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: ;
+    }
+    .content .para2{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: ;
     }
 
 }
@@ -185,6 +220,16 @@ header{
     }
     .navbar:hover h4{
         display: block;
+    }
+    .content .para1{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 2.2vw;
+    }
+    .content .para2{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 2.2vw;
     }
     
 }
